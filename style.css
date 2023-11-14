@@ -1,0 +1,84 @@
+/* liststyle:none */
+.container{
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.hero{
+    background-color: #FFCD9E;
+    
+    height: 70vh;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.footer{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+   
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    padding:0px 40px;
+    margin: 5%;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+}
+.no-bullets {
+    list-style: none;
+}
+
+.registration-container {
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.input-field {
+    padding: 10px 60px;
+    margin-right:10px;
+    border: 1px solid #000;
+    border-radius: 3px; 
+ 
+}
+
+
+.register-button {
+    background-color: #000; 
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+li{
+    padding: 0.5rem;
+
+}
+.fleft{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+}
